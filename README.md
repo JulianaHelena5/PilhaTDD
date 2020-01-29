@@ -6,7 +6,7 @@ Exercício sobre aplicação de TDD
 
 ## Problema
 
-Criar uma estrutura de dados do tipo `Pilha` utilizando `TDD` ().
+Criar uma estrutura de dados do tipo `Pilha` utilizando `TDD` (Test driven development).
 
 # Índice:
 
