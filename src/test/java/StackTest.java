@@ -26,4 +26,12 @@ public class StackTest {
         stack.push("Element");
         assertThat(stack.top(), equalTo("Element"));
     }
+
+    @Test
+    public void shouldRemoveTheTopOfAStackOfOneElement() {
+        Stack stack = new Stack();
+        stack.push("Element");
+        stack.pop();
+        assertTrue(stack.isEmpty());
+    }
 }
