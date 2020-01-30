@@ -19,4 +19,11 @@ public class StackTest {
         stack.push("Element");
         assertThat(stack.size(), equalTo(1));
     }
+
+    @Test
+    public void shouldReturnTheLastElementAddedAsTheTop() {
+        Stack stack = new Stack();
+        stack.push("Element");
+        assertThat(stack.top(), equalTo("Element"));
+    }
 }
