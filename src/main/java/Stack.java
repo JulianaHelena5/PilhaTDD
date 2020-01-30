@@ -5,4 +5,12 @@ public class Stack {
     public Integer size() {
         return size;
     }
+
+    public void push(String element) {
+        size++;
+    }
+
+    public boolean isEmpty() {
+        return true;
+    }
 }

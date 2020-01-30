@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-30T00:14:11" hostname="MacBook-Pro-de-Juliana.local" time="0.002">
+<testsuite name="StackTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-01-30T00:25:45" hostname="MacBook-Pro-de-Juliana.local" time="0.004">
   <properties/>
-  <testcase name="shouldReturnAnEmptyStack" classname="StackTest" time="0.002"/>
+  <testcase name="shouldPushAnElementToTheStack" classname="StackTest" time="0.004"/>
+  <testcase name="shouldReturnAnEmptyStack" classname="StackTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
